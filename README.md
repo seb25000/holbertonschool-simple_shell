@@ -70,8 +70,7 @@ git shortlog -se \
   | perl -spe 's/^\s+\d+\s+//' \
   | sed -e '/^CommitSyncScript.*$/d' \
   > AUTHORS :  Sebastien Daqiq Mouhamed Keita
-> ![image](https://github.com/user-attachments/assets/a1bf5bb7-3fa6-4018-b0d5-8c9f4986a5b9)
-> [Flowchart.docx](https://github.com/user-attachments/files/18153094/Flowchart.docx)
+
 
 
 
