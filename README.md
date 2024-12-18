@@ -48,6 +48,7 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
 files : 
 
+
 README.md - description about the project repo
 man_1_simple_shell - is the man page for the shell we are going to write.
 AUTHORS - file at the root of your repository, listing all individuals having contributed content to the repository.
@@ -68,13 +69,6 @@ Bash script for generating the list of authors in git repo
 
 git shortlog -se \
   | perl -spe 's/^\s+\d+\s+//' \
-  | sed -e '/^CommitSyncScript.*$/d' \
+  | sed -e '/^CommitSyncScript.*$/d' \ 
   > AUTHORS :  Sebastien Daqiq Mouhamed Keita
 > ![Flowchar_Simple-Shell_C](https://github.com/user-attachments/assets/bac97db2-823d-4c4c-93cf-70800cfa3673)
-
-
-
-
-
-
-

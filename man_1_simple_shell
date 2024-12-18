@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .TH SHELL 1 "DECEMBRE" "Hoberton-School-Students" "0x16"
  "1.01" "C - simple_shell - man page"
 
@@ -46,7 +45,7 @@ not many found.
 
 .SH AUTHOR
 Sebastien Daqiq | Mouhamed Keita
-=======
+
 .TH SHELL 1 "DECEMBRE 16, 2024"  "Hoberton-School-Students" "0x16"
  "1.01" "C - simple_shell - man page"
 
@@ -94,4 +93,4 @@ not many found.
 
 .SH AUTHOR
 Sebastien Daqiq | Mouhamed Keita
->>>>>>> refs/remotes/origin/main
+
