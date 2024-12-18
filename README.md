@@ -69,6 +69,11 @@ Bash script for generating the list of authors in git repo
 
 git shortlog -se \
   | perl -spe 's/^\s+\d+\s+//' \
+<<<<<<< HEAD
   | sed -e '/^CommitSyncScript.*$/d' \ 
   > AUTHORS :  Sebastien Daqiq Mouhamed Keita
+=======
+  | sed -e '/^CommitSyncScript.*$/d' \
+  > AUTHORS :  Sebastien Daqiq | Mouhamed Keita
+>>>>>>> refs/remotes/origin/main
 > ![Flowchar_Simple-Shell_C](https://github.com/user-attachments/assets/bac97db2-823d-4c4c-93cf-70800cfa3673)

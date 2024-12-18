@@ -8,5 +8,6 @@
 
 
 int main(void);
+void builtin_exit(void);
 
 #endif
