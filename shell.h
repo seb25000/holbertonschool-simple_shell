@@ -1,13 +1,17 @@
-#ifndef SHELL_H
-#define SHELL_H
+#ifndef MAIN_H
+#define MAIN_H
 
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
 #include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <sys/stat.h>
+#include <string.h>
+#include <errno.h>
 
 
-int main(void);
+int main(int argc, char **argv);
 
 
-#endif
+#endif /* MAIN_H */
