@@ -1,13 +1,14 @@
 #ifndef SHELL_H
 #define SHELL_H
 
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
+#include <errno.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <sys/wait.h>
+#include <sys/stat.h>
 
-
-int main(void);
-
+int main(int argc, char **argv);
 
 #endif
